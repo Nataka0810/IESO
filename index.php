@@ -53,7 +53,7 @@
 		<dt>メールアドレス<?php echo $_POST['mail']; ?></dt>
 		<dd>
 			<input type = "text" name = "mail" size = "35" maxlength = "255" 
-				value = "<?php echo $_POST['name']; ?>">
+				value = "<?php echo $_POST['mail']; ?>">
 			<?php if(!empty($error['mail']) and $error['mail'] == 'blank'): ?>
 			<p><font color="red">* メールアドレスを入力してください</font></p>
 			<?php endif; ?>
